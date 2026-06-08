@@ -1,12 +1,6 @@
-# Person Detection Web Application
+# VisionScan
 
-A lightweight, front-end web application that leverages computer vision to detect human faces and presence in real-time using a live camera feed.
+A Pen created on CodePen.
 
-## 🚀 Live Demo
-[View the Live Application Here](INSERT YOUR GITHUB PAGES URL HERE)
+Original URL: [https://codepen.io/-G025C1134/pen/wBomNVj](https://codepen.io/-G025C1134/pen/wBomNVj).
 
-## 🛠️ Features & Tech Stack
-- **HTML5 & CSS3:** For a clean, dark-themed, and responsive dashboard interface.
-- **Vanilla JavaScript (ES6+):** Utilized for asynchronous API handling, live viewfinder streaming, and dynamic DOM manipulation.
-- **Object Detection API:** Integrated computer vision model to identify and bound human targets with confidence percentages.
-- **Config Panel:** Secure UI settings built to manage API keys on the client side dynamically.
