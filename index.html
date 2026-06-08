@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>VisionScan</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <h1>// Person Detect</h1>
+
+<div class="config" id="configPanel">
+  <label>API Key</label>
+  <input type="password" id="apiKey" placeholder="AIzaSy…" autocomplete="off"/>
+</div>
+
+<div class="viewfinder" id="viewfinder">
+  <video id="video" autoplay playsinline muted></video>
+  <canvas id="overlay"></canvas>
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+  <div class="scan"></div>
+</div>
+
+<div class="controls">
+  <button id="captureBtn" onclick="capture()">▶ Capture & Analyze</button>
+  <button id="toggleConfig" onclick="toggleConfig()" title="Settings">⚙</button>
+</div>
+
+<div class="status" id="status">Initializing camera…</div>
+
+<div class="history" id="history"></div>
+
+<canvas id="capture" style="display:none"></canvas>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
